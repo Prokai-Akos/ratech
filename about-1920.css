@@ -1,0 +1,508 @@
+.main {
+    background-color: #f5f8fc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .main .div {
+    background-color: #f5f8fc;
+    width: 1920px;
+    height: 2372px;
+    position: relative;
+  }
+  
+  .main .footer {
+    position: absolute;
+    width: 1920px;
+    height: 173px;
+    top: 2199px;
+    left: 0;
+    background-color: #508fe8;
+  }
+  
+  .main .ratech-szerviz {
+    position: absolute;
+    top: 55px;
+    left: 830px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .elerhetosegek {
+    position: absolute;
+    width: 1281px;
+    height: 627px;
+    top: 1418px;
+    left: 319px;
+  }
+  
+  .main .mapspace {
+    position: absolute;
+    width: 506px;
+    height: 475px;
+    top: 152px;
+    left: 0;
+    background-color: #111010;
+  }
+  
+  .main .text-wrapper {
+    position: absolute;
+    top: -1px;
+    left: 400px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: 64px;
+    white-space: nowrap;
+  }
+  
+  .main .p {
+    position: absolute;
+    width: 650px;
+    top: 151px;
+    left: 631px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .main .text-wrapper-2 {
+    position: absolute;
+    top: 238px;
+    left: 631px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .text-wrapper-3 {
+    position: absolute;
+    top: 293px;
+    left: 762px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .text-wrapper-4 {
+    position: absolute;
+    top: 389px;
+    left: 631px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .instagram {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 483px;
+    left: 627px;
+  }
+  
+  .main .facebook {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 483px;
+    left: 770px;
+  }
+  
+  .main .header {
+    position: absolute;
+    width: 1920px;
+    height: 527px;
+    top: 0;
+    left: 0;
+    background-color: #508fe8;
+  }
+  
+  .main .text-wrapper-5 {
+    position: absolute;
+    top: 113px;
+    left: 761px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 57px;
+    letter-spacing: -0.25px;
+    line-height: 64px;
+    white-space: nowrap;
+  }
+  
+  .main .elromlott-a-laptopja {
+    position: absolute;
+    width: 654px;
+    top: 206px;
+    left: 761px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .miklos {
+    position: absolute;
+    width: 494px;
+    height: 402px;
+    top: 114px;
+    left: 226px;
+    object-fit: cover;
+  }
+  
+  .main .navbar {
+    position: absolute;
+    width: 1926px;
+    height: 94px;
+    top: -3px;
+    left: -3px;
+    background-color: #508fe8;
+    border: 3px solid;
+    border-color: #000000;
+  }
+  
+  .main .r-lunk {
+    position: absolute;
+    top: 16px;
+    left: 1491px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .raink {
+    position: absolute;
+    top: 16px;
+    left: 1225px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main .text-wrapper-6 {
+    position: absolute;
+    top: 390px;
+    left: 761px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .main .thick-arrow-pointing {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 370px;
+    left: 1258px;
+  }
+  
+  .main .adatmentes {
+    position: absolute;
+    width: 506px;
+    height: 319px;
+    top: 589px;
+    left: 650px;
+    background-color: #111010;
+  }
+  
+  .main .overlap-group {
+    position: relative;
+    height: 319px;
+    background-color: #d9d9d9;
+  }
+  
+  .main .card-title {
+    position: absolute;
+    width: 245px;
+    top: 50px;
+    left: 50px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 64px;
+    white-space: nowrap;
+  }
+  
+  .main .overlap {
+    position: absolute;
+    width: 415px;
+    height: 208px;
+    top: 37px;
+    left: 50px;
+  }
+  
+  .main .card-text {
+    width: 402px;
+    top: 79px;
+    left: 0;
+    font-size: 32px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  
+  .main .HDD {
+    position: absolute;
+    width: 90px;
+    height: 91px;
+    top: 0;
+    left: 325px;
+  }
+  
+  .main .halozat {
+    position: absolute;
+    width: 506px;
+    height: 319px;
+    top: 589px;
+    left: 132px;
+    background-color: #111010;
+  }
+  
+  .main .card-title-2 {
+    width: 203px;
+    top: 50px;
+    left: 50px;
+    font-size: 36px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  
+  .main .overlap-group-2 {
+    position: absolute;
+    width: 431px;
+    height: 258px;
+    top: 37px;
+    left: 56px;
+  }
+  
+  .main .card-text-2 {
+    width: 431px;
+    top: 80px;
+    position: absolute;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  
+  .main .wi-fi-connected {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 0;
+    left: 319px;
+  }
+  
+  .main .weboldal {
+    position: absolute;
+    width: 506px;
+    height: 319px;
+    top: 927px;
+    left: 132px;
+    background-color: #111010;
+  }
+  
+  .main .overlap-group-3 {
+    position: absolute;
+    width: 419px;
+    height: 208px;
+    top: 37px;
+    left: 46px;
+  }
+  
+  .main .card-text-3 {
+    width: 364px;
+    top: 79px;
+    position: absolute;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  
+  .main .img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 0;
+    left: 329px;
+  }
+  
+  .main .javitas {
+    position: absolute;
+    width: 506px;
+    height: 319px;
+    top: 927px;
+    left: 650px;
+    background-color: #111010;
+  }
+  
+  .main .text-wrapper-7 {
+    position: absolute;
+    top: 53px;
+    left: 56px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 64px;
+    white-space: nowrap;
+  }
+  
+  .main .overlap-group-4 {
+    position: absolute;
+    width: 419px;
+    height: 214px;
+    top: 31px;
+    left: 56px;
+  }
+  
+  .main .sz-m-t-g-p-s-laptop {
+    position: absolute;
+    top: 86px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  
+  .main .epites {
+    position: absolute;
+    width: 506px;
+    height: 319px;
+    top: 927px;
+    left: 1173px;
+    background-color: #111010;
+  }
+  
+  .main .sz-m-t-g-p-ig-nyekre {
+    position: absolute;
+    width: 362px;
+    top: 126px;
+    left: 63px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  
+  .main .text-wrapper-8 {
+    position: absolute;
+    width: 186px;
+    top: 53px;
+    left: 63px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  
+  .main .wrench {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 27px;
+    left: 378px;
+  }
+  
+  .main .rendszertelepites {
+    position: absolute;
+    width: 504px;
+    height: 319px;
+    top: 589px;
+    left: 1175px;
+    background-color: #111010;
+  }
+  
+  .main .j-rendszert-telep-t {
+    position: absolute;
+    top: 117px;
+    left: 27px;
+    -webkit-text-stroke: 1px #111010;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  
+  .main .text-wrapper-9 {
+    position: absolute;
+    top: 53px;
+    left: 27px;
+    -webkit-text-stroke: 1px #111010;
+    font-family: "Newsreader-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 64px;
+    white-space: nowrap;
+  }
+  
+  .main .windows {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 40px;
+    left: 388px;
+  }
