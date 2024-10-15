@@ -1,32 +1,26 @@
-.main-phone {
-    background-color: #ffffff;
+.main-responsive {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .main-phone .div {
-    background-color: #ffffff;
-    width: 414px;
-    height: 896px;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    padding: 0px 0px 10px;
     position: relative;
+    background-color: #ffffff;
   }
   
-  .main-phone .header {
-    position: absolute;
-    width: 414px;
+  .main-responsive .header {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
     height: 158px;
-    top: 0;
-    left: 0;
     background-color: #508fe8;
   }
   
-  .main-phone .text-wrapper {
+  .main-responsive .text-wrapper {
     position: absolute;
-    width: 147px;
+    width: 142px;
     top: 31px;
-    left: 158px;
+    left: 153px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #1e1e1e;
@@ -41,18 +35,18 @@
     -webkit-box-orient: vertical;
   }
   
-  .main-phone .miklos {
+  .main-responsive .miklos {
     position: absolute;
-    width: 127px;
+    width: 123px;
     height: 129px;
     top: 29px;
     left: 9px;
     object-fit: cover;
   }
   
-  .main-phone .navbar {
+  .main-responsive .navbar {
     position: absolute;
-    width: 416px;
+    width: 402px;
     height: 19px;
     top: -1px;
     left: -1px;
@@ -62,7 +56,7 @@
     border-color: #000000;
   }
   
-  .main-phone .text-wrapper-2 {
+  .main-responsive .div {
     position: absolute;
     top: 5px;
     left: 465px;
@@ -74,11 +68,11 @@
     line-height: normal;
   }
   
-  .main-phone .text-wrapper-3 {
+  .main-responsive .text-wrapper-2 {
     position: absolute;
-    width: 98px;
+    width: 94px;
     top: 114px;
-    left: 158px;
+    left: 153px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #1e1e1e;
@@ -87,19 +81,19 @@
     line-height: normal;
   }
   
-  .main-phone .thick-arrow-pointing {
+  .main-responsive .thick-arrow-pointing {
     position: absolute;
-    width: 28px;
+    width: 27px;
     height: 36px;
     top: 115px;
-    left: 268px;
+    left: 259px;
   }
   
-  .main-phone .elromlott-a-laptopja {
+  .main-responsive .elromlott-a-laptopja {
     position: absolute;
-    width: 183px;
+    width: 177px;
     top: 52px;
-    left: 158px;
+    left: 153px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #1e1e1e;
@@ -108,22 +102,20 @@
     line-height: normal;
   }
   
-  .main-phone .halozat {
-    position: absolute;
+  .main-responsive .halozat {
+    position: relative;
     width: 219px;
     height: 117px;
-    top: 171px;
-    left: 96px;
     background-color: #111010;
   }
   
-  .main-phone .overlap-group {
+  .main-responsive .overlap-group {
     position: relative;
     height: 117px;
     background-color: #d9d9d9;
   }
   
-  .main-phone .card-title {
+  .main-responsive .card-title {
     width: 88px;
     top: 22px;
     font-size: 11px;
@@ -136,7 +128,7 @@
     line-height: normal;
   }
   
-  .main-phone .card-text {
+  .main-responsive .card-text {
     width: 186px;
     top: 46px;
     font-size: 10px;
@@ -149,7 +141,7 @@
     line-height: normal;
   }
   
-  .main-phone .wi-fi-connected {
+  .main-responsive .wi-fi-connected {
     position: absolute;
     width: 39px;
     height: 33px;
@@ -157,22 +149,54 @@
     left: 162px;
   }
   
-  .main-phone .rendszertelepites {
-    position: absolute;
+  .main-responsive .overlap-wrapper {
+    position: relative;
     width: 219px;
     height: 116px;
-    top: 301px;
-    left: 96px;
     background-color: #111010;
   }
   
-  .main-phone .overlap {
-    position: relative;
+  .main-responsive .overlap {
     height: 116px;
+    position: relative;
     background-color: #d9d9d9;
   }
   
-  .main-phone .j-rendszert-telep-t {
+  .main-responsive .card-title-2 {
+    width: 106px;
+    top: 21px;
+    left: 19px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main-responsive .p {
+    width: 175px;
+    top: 47px;
+    left: 19px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main-responsive .HDD {
+    position: absolute;
+    width: 39px;
+    height: 33px;
+    top: 13px;
+    left: 162px;
+  }
+  
+  .main-responsive .j-rendszert-telep-t {
     position: absolute;
     width: 171px;
     top: 46px;
@@ -186,7 +210,7 @@
     line-height: normal;
   }
   
-  .main-phone .text-wrapper-4 {
+  .main-responsive .text-wrapper-3 {
     position: absolute;
     width: 153px;
     top: 19px;
@@ -200,7 +224,7 @@
     line-height: normal;
   }
   
-  .main-phone .windows {
+  .main-responsive .windows {
     position: absolute;
     width: 39px;
     height: 33px;
@@ -208,47 +232,115 @@
     left: 171px;
   }
   
-  .main-phone .weboldal {
-    position: absolute;
-    width: 147px;
-    height: 90px;
-    top: 742px;
-    left: 13px;
+  .main-responsive .weboldal {
+    position: relative;
+    width: 220px;
+    height: 116px;
     background-color: #111010;
   }
   
-  .main-phone .overlap-2 {
+  .main-responsive .card-title-3 {
+    width: 88px;
+    top: 18px;
+    left: 22px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main-responsive .overlap-group-2 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    top: 9px;
+    left: 20px;
+  }
+  
+  .main-responsive .card-text-2 {
+    width: 158px;
+    top: 33px;
+    left: 0;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main-responsive .internet {
+    position: absolute;
+    width: 67px;
+    height: 36px;
+    top: 0;
+    left: 133px;
+  }
+  
+  .main-responsive .text-wrapper-4 {
+    position: absolute;
+    width: 93px;
+    top: 19px;
+    left: 25px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main-responsive .overlap-group-3 {
+    position: absolute;
+    width: 173px;
+    height: 75px;
+    top: 14px;
+    left: 24px;
+  }
+  
+  .main-responsive .sz-m-t-g-p-s-laptop {
+    position: absolute;
+    width: 173px;
+    top: 28px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111010;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .main-responsive .computer-support {
+    position: absolute;
+    width: 39px;
+    height: 33px;
+    top: 0;
+    left: 133px;
+  }
+  
+  .main-responsive .epites {
     position: relative;
-    height: 90px;
+    width: 219px;
+    height: 112px;
+    background-color: #111010;
+  }
+  
+  .main-responsive .overlap-2 {
+    height: 112px;
+    position: relative;
     background-color: #d9d9d9;
   }
   
-  .main-phone .card-title-2 {
+  .main-responsive .sz-m-t-g-p-ig-nyekre {
     position: absolute;
-    width: 59px;
-    top: 14px;
-    left: 15px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #111010;
-    font-size: 11px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .main-phone .overlap-group-2 {
-    position: absolute;
-    width: 134px;
-    height: 62px;
-    top: 7px;
-    left: 13px;
-  }
-  
-  .main-phone .card-text-2 {
-    position: absolute;
-    width: 106px;
-    top: 26px;
-    left: 0;
+    width: 157px;
+    top: 44px;
+    left: 27px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #111010;
@@ -257,36 +349,11 @@
     line-height: normal;
   }
   
-  .main-phone .internet {
+  .main-responsive .text-wrapper-5 {
     position: absolute;
-    width: 45px;
-    height: 28px;
-    top: 0;
-    left: 89px;
-  }
-  
-  .main-phone .overlap-3 {
-    position: absolute;
-    width: 225px;
-    height: 172px;
-    top: 716px;
-    left: 173px;
-  }
-  
-  .main-phone .javitas {
-    position: absolute;
-    width: 150px;
-    height: 90px;
-    top: 0;
-    left: 0;
-    background-color: #111010;
-  }
-  
-  .main-phone .text-wrapper-5 {
-    position: absolute;
-    width: 64px;
-    top: 15px;
-    left: 17px;
+    width: 81px;
+    top: 19px;
+    left: 27px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #111010;
@@ -295,74 +362,10 @@
     line-height: normal;
   }
   
-  .main-phone .overlap-group-3 {
+  .main-responsive .wrench {
     position: absolute;
-    width: 119px;
-    height: 58px;
-    top: 11px;
-    left: 17px;
-  }
-  
-  .main-phone .sz-m-t-g-p-s-laptop {
-    position: absolute;
-    width: 119px;
-    top: 22px;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #111010;
-    font-size: 10px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .main-phone .computer-support {
-    position: absolute;
-    width: 27px;
-    height: 25px;
-    top: 0;
-    left: 91px;
-  }
-  
-  .main-phone .epites {
-    position: absolute;
-    width: 150px;
-    height: 90px;
-    top: 82px;
-    left: 75px;
-    background-color: #111010;
-  }
-  
-  .main-phone .sz-m-t-g-p-ig-nyekre {
-    position: absolute;
-    width: 107px;
-    top: 36px;
-    left: 19px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #111010;
-    font-size: 10px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .main-phone .text-wrapper-6 {
-    position: absolute;
-    width: 55px;
-    top: 15px;
-    left: 19px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #111010;
-    font-size: 11px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .main-phone .wrench {
-    position: absolute;
-    width: 27px;
-    height: 25px;
-    top: 8px;
-    left: 113px;
+    width: 39px;
+    height: 32px;
+    top: 10px;
+    left: 165px;
   }
