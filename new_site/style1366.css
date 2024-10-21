@@ -160,7 +160,7 @@
   
   .desktop .build {
     position: absolute;
-    width: 346px;
+    width: 386px;
     height: 196px;
     top: 416px;
     left: 955px;
@@ -168,33 +168,25 @@
   
   .desktop .overlap-group-2 {
     position: relative;
-    width: 348px;
+    width: 387px;
     height: 202px;
     top: -3px;
     left: -3px;
-    background-image: url(./img/network-bg.svg);
-    background-size: 100% 100%;
   }
   
-  .desktop .card-text {
-    width: 282px;
-    top: 92px;
-    left: 47px;
+  .desktop .img {
     position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
+    width: 348px;
+    height: 202px;
+    top: 0;
+    left: 0;
   }
   
   .desktop .card-title {
-    width: 131px;
-    top: 37px;
-    left: 108px;
-    white-space: nowrap;
+    top: 45px;
+    left: 131px;
     position: absolute;
+    width: 256px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #302c2c;
@@ -205,15 +197,15 @@
   
   .desktop .support {
     position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 29px;
-    left: 262px;
+    width: 80px;
+    height: 80px;
+    top: 85px;
+    left: 134px;
   }
   
   .desktop .repair {
     position: absolute;
-    width: 355px;
+    width: 363px;
     height: 196px;
     top: 422px;
     left: 513px;
@@ -221,38 +213,17 @@
   
   .desktop .overlap-2 {
     position: relative;
-    width: 354px;
+    width: 364px;
     height: 202px;
     top: -3px;
     left: -3px;
   }
   
-  .desktop .repair-bg {
-    position: absolute;
-    width: 348px;
-    height: 202px;
-    top: 0;
-    left: 0;
-  }
-  
-  .desktop .p {
-    width: 323px;
-    top: 86px;
-    left: 31px;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
   .desktop .card-title-2 {
-    width: 131px;
     top: 37px;
     left: 108px;
     position: absolute;
+    width: 256px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #302c2c;
@@ -263,39 +234,33 @@
   
   .desktop .computer-support {
     position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 23px;
-    left: 266px;
+    width: 80px;
+    height: 80px;
+    top: 79px;
+    left: 134px;
   }
   
   .desktop .website {
     position: absolute;
-    width: 346px;
+    width: 354px;
     height: 196px;
     top: 422px;
     left: 71px;
   }
   
-  .desktop .card-text-2 {
-    width: 223px;
-    top: 87px;
-    left: 67px;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
+  .desktop .overlap-3 {
+    position: relative;
+    width: 355px;
+    height: 202px;
+    top: -3px;
+    left: -3px;
   }
   
   .desktop .card-title-3 {
-    width: 140px;
     top: 38px;
     left: 99px;
-    white-space: nowrap;
     position: absolute;
+    width: 256px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #302c2c;
@@ -306,46 +271,35 @@
   
   .desktop .internet {
     position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 23px;
-    left: 261px;
+    width: 80px;
+    height: 80px;
+    top: 79px;
+    left: 129px;
   }
   
   .desktop .OS {
     position: absolute;
-    width: 346px;
+    width: 344px;
     height: 196px;
     top: 150px;
     left: 951px;
   }
   
-  .desktop .card-text-3 {
-    width: 285px;
-    top: 93px;
-    left: 31px;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .overlap-group-3 {
-    position: absolute;
-    width: 313px;
-    height: 70px;
-    top: 23px;
-    left: 20px;
+  .desktop .overlap-4 {
+    position: relative;
+    width: 348px;
+    height: 202px;
+    top: -3px;
+    left: -3px;
+    background-image: url(./img/network-bg.svg);
+    background-size: 100% 100%;
   }
   
   .desktop .card-title-4 {
-    width: 270px;
-    top: 14px;
-    left: 0;
+    top: 36px;
+    left: 46px;
     position: absolute;
+    width: 256px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #302c2c;
@@ -356,38 +310,25 @@
   
   .desktop .windows {
     position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 0;
-    left: 256px;
+    width: 80px;
+    height: 80px;
+    top: 81px;
+    left: 138px;
   }
   
   .desktop .datasave {
     position: absolute;
-    width: 346px;
+    width: 344px;
     height: 196px;
     top: 150px;
     left: 511px;
   }
   
-  .desktop .card-text-4 {
-    width: 295px;
-    top: 93px;
-    left: 41px;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
   .desktop .card-title-5 {
-    width: 177px;
     top: 37px;
     left: 85px;
     position: absolute;
+    width: 256px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #302c2c;
@@ -398,25 +339,33 @@
   
   .desktop .HDD {
     position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 23px;
-    left: 273px;
+    width: 80px;
+    height: 80px;
+    top: 80px;
+    left: 135px;
   }
   
   .desktop .network {
     position: absolute;
-    width: 346px;
+    width: 367px;
     height: 196px;
     top: 150px;
     left: 70px;
   }
   
-  .desktop .card-text-5 {
-    width: 295px;
-    top: 93px;
-    left: 43px;
+  .desktop .overlap-5 {
+    position: relative;
+    width: 368px;
+    height: 202px;
+    top: -3px;
+    left: -3px;
+  }
+  
+  .desktop .card-title-6 {
+    top: 38px;
+    left: 112px;
     position: absolute;
+    width: 256px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #302c2c;
@@ -427,10 +376,10 @@
   
   .desktop .wi-fi-connected {
     position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 23px;
-    left: 262px;
+    width: 80px;
+    height: 80px;
+    top: 80px;
+    left: 130px;
   }
   
   .desktop .intro {
@@ -442,7 +391,7 @@
     background-color: #a5d7e0;
   }
   
-  .desktop .overlap-3 {
+  .desktop .overlap-6 {
     position: relative;
     width: 1340px;
     height: 768px;
@@ -476,7 +425,7 @@
     left: 42px;
   }
   
-  .desktop .overlap-group-4 {
+  .desktop .overlap-group-3 {
     position: relative;
     width: 254px;
     height: 131px;

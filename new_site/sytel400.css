@@ -1,4 +1,4 @@
-.desktop {
+.phone {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -6,514 +6,380 @@
     width: 100%;
   }
   
-  .desktop .div {
+  .phone .div {
     background-color: #ffffff;
-    overflow: hidden;
-    width: 1366px;
-    height: 2304px;
+    width: 400px;
+    height: 3200px;
     position: relative;
   }
   
-  .desktop .address {
+  .phone .address {
     position: absolute;
-    width: 1366px;
-    height: 768px;
-    top: 1535px;
-    left: 1px;
-    background-color: #a5d7e0;
-  }
-  
-  .desktop .address-div {
-    position: relative;
-    width: 1024px;
-    height: 577px;
-    top: 95px;
-    left: 171px;
-    background-color: #a5d7e0;
-  }
-  
-  .desktop .group {
-    position: relative;
-    width: 916px;
-    height: 400px;
-    top: 58px;
-    left: 73px;
-  }
-  
-  .desktop .address-group {
-    position: relative;
-    width: 924px;
-    height: 400px;
-  }
-  
-  .desktop .mapspace {
-    position: absolute;
-    width: 360px;
-    height: 338px;
-    top: 62px;
+    width: 400px;
+    height: 800px;
+    top: 2400px;
     left: 0;
-    background-color: #302c2c;
+    background-color: #a5d7e0;
   }
   
-  .desktop .overlap-group {
+  .phone .text-wrapper {
     position: absolute;
-    width: 535px;
-    height: 393px;
-    top: 0;
-    left: 381px;
-  }
-  
-  .desktop .text-wrapper {
-    position: absolute;
-    width: 438px;
-    top: 0;
-    left: 49px;
+    width: 274px;
+    top: -1px;
+    left: 63px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
-    color: #302c2c;
-    font-size: 48px;
+    color: #000000;
+    font-size: 32px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .desktop .rectangle {
+  .phone .address-group {
     position: absolute;
-    width: 535px;
-    height: 304px;
-    top: 88px;
-    left: 0;
+    width: 326px;
+    height: 320px;
+    top: 78px;
+    left: 40px;
+  }
+  
+  .phone .overlap-group {
+    position: relative;
+    width: 320px;
+    height: 320px;
     background-color: #d9d9d9;
     border-radius: 50px;
   }
   
-  .desktop .SZERVIZ-c-ME {
+  .phone .facebook {
     position: absolute;
-    width: 473px;
-    top: 122px;
-    left: 36px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
+    width: 90px;
+    height: 90px;
+    top: 226px;
+    left: 199px;
   }
   
-  .desktop .TELEFON {
+  .phone .instagram {
     position: absolute;
-    width: 390px;
-    top: 195px;
-    left: 36px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
+    width: 90px;
+    height: 90px;
+    top: 226px;
+    left: 23px;
   }
   
-  .desktop .text-wrapper-2 {
+  .phone .tel {
     position: absolute;
-    width: 483px;
-    top: 290px;
-    left: 26px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .facebook {
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    top: 328px;
-    left: 423px;
-  }
-  
-  .desktop .instagram {
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    top: 328px;
-    left: 335px;
-  }
-  
-  .desktop .overlap {
-    position: absolute;
-    width: 1366px;
-    height: 1535px;
-    top: 0;
-    left: 0;
-  }
-  
-  .desktop .services {
-    position: absolute;
-    width: 1366px;
-    height: 768px;
-    top: 767px;
-    left: 0;
-    background-color: #a5d7e0;
-  }
-  
-  .desktop .build {
-    position: absolute;
-    width: 346px;
-    height: 196px;
-    top: 416px;
-    left: 955px;
-  }
-  
-  .desktop .overlap-group-2 {
-    position: relative;
-    width: 348px;
-    height: 202px;
-    top: -3px;
-    left: -3px;
-    background-image: url(./img/network-bg.svg);
-    background-size: 100% 100%;
-  }
-  
-  .desktop .card-text {
-    width: 282px;
-    top: 92px;
-    left: 47px;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .card-title {
-    width: 131px;
-    top: 37px;
-    left: 108px;
-    white-space: nowrap;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .support {
-    position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 29px;
-    left: 262px;
-  }
-  
-  .desktop .repair {
-    position: absolute;
-    width: 355px;
-    height: 196px;
-    top: 422px;
-    left: 513px;
-  }
-  
-  .desktop .overlap-2 {
-    position: relative;
-    width: 354px;
-    height: 202px;
-    top: -3px;
-    left: -3px;
-  }
-  
-  .desktop .repair-bg {
-    position: absolute;
-    width: 348px;
-    height: 202px;
-    top: 0;
-    left: 0;
-  }
-  
-  .desktop .p {
-    width: 323px;
-    top: 86px;
-    left: 31px;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .card-title-2 {
-    width: 131px;
-    top: 37px;
-    left: 108px;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .computer-support {
-    position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 23px;
-    left: 266px;
-  }
-  
-  .desktop .website {
-    position: absolute;
-    width: 346px;
-    height: 196px;
-    top: 422px;
-    left: 71px;
-  }
-  
-  .desktop .card-text-2 {
     width: 223px;
-    top: 87px;
-    left: 67px;
-    position: absolute;
+    top: 112px;
+    left: 48px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
+    color: #000000;
+    font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .desktop .card-title-3 {
-    width: 140px;
-    top: 38px;
-    left: 99px;
-    white-space: nowrap;
+  .phone .szerviz-miskolc {
     position: absolute;
+    width: 224px;
+    top: 43px;
+    left: 48px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
+    color: #000000;
+    font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .desktop .internet {
+  .phone .text-wrapper-2 {
     position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 23px;
-    left: 261px;
-  }
-  
-  .desktop .OS {
-    position: absolute;
-    width: 346px;
-    height: 196px;
-    top: 150px;
-    left: 951px;
-  }
-  
-  .desktop .card-text-3 {
-    width: 285px;
-    top: 93px;
-    left: 31px;
-    position: absolute;
+    width: 257px;
+    top: 181px;
+    left: 32px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
+    color: #000000;
+    font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .desktop .overlap-group-3 {
+  .phone .mapspace {
     position: absolute;
-    width: 313px;
-    height: 70px;
-    top: 23px;
-    left: 20px;
+    width: 320px;
+    height: 300px;
+    top: 447px;
+    left: 40px;
+    background-color: #302c2c;
   }
   
-  .desktop .card-title-4 {
-    width: 270px;
-    top: 14px;
+  .phone .services {
+    position: absolute;
+    width: 400px;
+    height: 1600px;
+    top: 800px;
     left: 0;
+    background-color: #a5d7e0;
+  }
+  
+  .phone .build {
+    position: absolute;
+    width: 238px;
+    height: 149px;
+    top: 1293px;
+    left: 82px;
+  }
+  
+  .phone .overlap-group-2 {
+    position: relative;
+    width: 236px;
+    height: 149px;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    border: 3px solid;
+    border-color: #302c2c;
+  }
+  
+  .phone .support {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 41px;
+    left: 75px;
+  }
+  
+  .phone .card-title {
+    width: 79px;
+    top: 17px;
+    left: 76px;
+    font-size: 16px;
     position: absolute;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #302c2c;
-    font-size: 24px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .desktop .windows {
+  .phone .repair {
     position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 0;
-    left: 256px;
+    width: 238px;
+    height: 149px;
+    top: 1065px;
+    left: 82px;
   }
   
-  .desktop .datasave {
-    position: absolute;
-    width: 346px;
-    height: 196px;
-    top: 150px;
-    left: 511px;
-  }
-  
-  .desktop .card-text-4 {
-    width: 295px;
-    top: 93px;
-    left: 41px;
+  .phone .card-title-2 {
+    width: 68px;
+    top: 16px;
+    left: 81px;
+    font-size: 16px;
     position: absolute;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #302c2c;
-    font-size: 24px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .desktop .card-title-5 {
-    width: 177px;
-    top: 37px;
-    left: 85px;
+  .phone .computer-support {
     position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
+    width: 80px;
+    height: 80px;
+    top: 35px;
+    left: 75px;
   }
   
-  .desktop .HDD {
+  .phone .website {
     position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 23px;
-    left: 273px;
+    width: 238px;
+    height: 149px;
+    top: 837px;
+    left: 82px;
   }
   
-  .desktop .network {
+  .phone .internet {
     position: absolute;
-    width: 346px;
-    height: 196px;
-    top: 150px;
+    width: 80px;
+    height: 80px;
+    top: 42px;
+    left: 75px;
+  }
+  
+  .phone .card-title-3 {
+    width: 91px;
+    top: 14px;
     left: 70px;
-  }
-  
-  .desktop .card-text-5 {
-    width: 295px;
-    top: 93px;
-    left: 43px;
+    font-size: 16px;
     position: absolute;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #302c2c;
-    font-size: 24px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .desktop .wi-fi-connected {
+  .phone .OS {
     position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 23px;
-    left: 262px;
+    width: 238px;
+    height: 149px;
+    top: 609px;
+    left: 82px;
   }
   
-  .desktop .intro {
+  .phone .card-title-4 {
+    width: 174px;
+    top: 15px;
+    left: 28px;
+    font-size: 16px;
     position: absolute;
-    width: 1366px;
-    height: 768px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #302c2c;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .phone .windows {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 30px;
+    left: 75px;
+  }
+  
+  .phone .datasave {
+    position: absolute;
+    width: 238px;
+    height: 149px;
+    top: 386px;
+    left: 82px;
+  }
+  
+  .phone .card-title-5 {
+    width: 118px;
+    top: 13px;
+    left: 56px;
+    font-size: 16px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #302c2c;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .phone .HDD {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 38px;
+    left: 75px;
+  }
+  
+  .phone .network {
+    position: absolute;
+    width: 238px;
+    height: 149px;
+    top: 158px;
+    left: 82px;
+  }
+  
+  .phone .wi-fi-connected {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 40px;
+    left: 75px;
+  }
+  
+  .phone .card-title-6 {
+    width: 98px;
+    top: 9px;
+    left: 66px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #302c2c;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .phone .intro {
+    position: absolute;
+    width: 400px;
+    height: 800px;
     top: 0;
     left: 0;
     background-color: #a5d7e0;
   }
   
-  .desktop .overlap-3 {
+  .phone .overlap {
     position: relative;
-    width: 1340px;
-    height: 768px;
+    height: 800px;
   }
   
-  .desktop .intersect {
+  .phone .miklos {
     position: absolute;
-    width: 683px;
-    height: 768px;
+    width: 158px;
+    height: 151px;
+    top: 649px;
+    left: 242px;
+    object-fit: cover;
+  }
+  
+  .phone .intersect {
+    position: absolute;
+    width: 297px;
+    height: 800px;
     top: 0;
     left: 0;
   }
   
-  .desktop .main-title {
+  .phone .RATECH-SZERVIZ {
     position: absolute;
-    top: 267px;
-    left: 270px;
+    top: 322px;
+    left: 5px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
-    color: #2f2c2c;
-    font-size: 96px;
+    color: #000000;
+    font-size: 64px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .desktop .prices-group {
+  .phone .prices-group {
     position: absolute;
-    width: 248px;
-    height: 127px;
-    top: 640px;
-    left: 42px;
+    width: 118px;
+    height: 41px;
+    top: 702px;
+    left: 21px;
   }
   
-  .desktop .overlap-group-4 {
+  .phone .prices-link-text-wrapper {
     position: relative;
-    width: 254px;
-    height: 131px;
+    width: 124px;
+    height: 49px;
     top: -4px;
     left: -4px;
-  }
-  
-  .desktop .prices-link {
-    position: absolute;
-    width: 254px;
-    height: 98px;
-    top: 0;
-    left: 0;
     background-color: #a5d7e0;
     border-radius: 40px;
     border: 4px solid;
     border-color: #000000;
   }
   
-  .desktop .prices-link-text {
+  .phone .prices-link-text {
     position: absolute;
-    width: 192px;
-    top: 22px;
-    left: 40px;
+    width: 83px;
+    top: 9px;
+    left: 16px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
-    color: #302c2c;
-    font-size: 48px;
+    color: #000000;
+    font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
-  }
-  
-  .desktop .miklos {
-    position: absolute;
-    width: 445px;
-    height: 405px;
-    top: 363px;
-    left: 895px;
-    object-fit: cover;
   }

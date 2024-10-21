@@ -143,7 +143,7 @@
   
   .desktop .build {
     position: absolute;
-    width: 490px;
+    width: 482px;
     height: 275px;
     top: 585px;
     left: 1342px;
@@ -151,37 +151,18 @@
   
   .desktop .overlap-group-2 {
     position: relative;
-    width: 489px;
+    width: 486px;
     height: 281px;
     top: -3px;
     left: -3px;
-  }
-  
-  .desktop .img {
-    position: absolute;
-    width: 486px;
-    height: 281px;
-    top: 0;
-    left: 0;
-  }
-  
-  .desktop .card-text {
-    width: 396px;
-    top: 156px;
-    left: 93px;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 28px;
-    letter-spacing: 0;
-    line-height: normal;
+    background-image: url(./img/network-bg.svg);
+    background-size: 100% 100%;
   }
   
   .desktop .card-title {
-    width: 185px;
-    top: 51px;
-    left: 151px;
+    width: 235px;
+    top: 48px;
+    left: 183px;
     position: absolute;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
@@ -193,74 +174,51 @@
   
   .desktop .support {
     position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 39px;
-    left: 367px;
+    width: 150px;
+    height: 150px;
+    top: 98px;
+    left: 168px;
   }
   
   .desktop .repair {
     position: absolute;
-    width: 484px;
+    width: 482px;
     height: 275px;
     top: 593px;
     left: 721px;
   }
   
-  .desktop .overlap {
-    position: relative;
-    width: 486px;
-    height: 281px;
-    top: -3px;
-    left: -3px;
-    background-image: url(./img/network-bg.svg);
-    background-size: 100% 100%;
-  }
-  
-  .desktop .p {
-    width: 396px;
-    top: 141px;
-    left: 64px;
+  .desktop .card-title-2 {
+    width: 235px;
+    top: 51px;
+    left: 165px;
     position: absolute;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #302c2c;
-    font-size: 28px;
+    font-size: 32px;
     letter-spacing: 0;
     line-height: normal;
   }
   
   .desktop .computer-support {
     position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 31px;
-    left: 372px;
+    width: 150px;
+    height: 150px;
+    top: 90px;
+    left: 165px;
   }
   
   .desktop .website {
     position: absolute;
-    width: 484px;
+    width: 482px;
     height: 275px;
     top: 593px;
     left: 100px;
   }
   
-  .desktop .card-text-2 {
-    width: 268px;
-    top: 148px;
-    left: 113px;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 28px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .card-title-2 {
-    width: 185px;
+  .desktop .card-title-3 {
+    width: 235px;
     top: 52px;
     left: 150px;
     white-space: nowrap;
@@ -275,45 +233,24 @@
   
   .desktop .internet {
     position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 31px;
-    left: 366px;
+    width: 150px;
+    height: 150px;
+    top: 90px;
+    left: 167px;
   }
   
   .desktop .OS {
     position: absolute;
-    width: 484px;
+    width: 482px;
     height: 275px;
     top: 211px;
     left: 1337px;
   }
   
-  .desktop .card-text-3 {
-    width: 329px;
-    top: 144px;
-    left: 83px;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 28px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .overlap-group-3 {
-    position: absolute;
-    width: 440px;
-    height: 80px;
-    top: 31px;
-    left: 27px;
-  }
-  
-  .desktop .card-title-3 {
-    width: 379px;
-    top: 20px;
-    left: 0;
+  .desktop .card-title-4 {
+    width: 350px;
+    top: 43px;
+    left: 75px;
     position: absolute;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
@@ -325,43 +262,22 @@
   
   .desktop .windows {
     position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 0;
-    left: 360px;
+    width: 150px;
+    height: 150px;
+    top: 90px;
+    left: 173px;
   }
   
   .desktop .datasave {
     position: absolute;
-    width: 492px;
+    width: 482px;
     height: 275px;
     top: 211px;
     left: 718px;
   }
   
-  .desktop .overlap-2 {
-    position: relative;
-    width: 491px;
-    height: 281px;
-    top: -3px;
-    left: -3px;
-  }
-  
-  .desktop .card-text-4 {
-    width: 415px;
-    top: 151px;
-    left: 76px;
-    position: absolute;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #302c2c;
-    font-size: 28px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .card-title-4 {
-    width: 249px;
+  .desktop .card-title-5 {
+    width: 235px;
     top: 51px;
     left: 118px;
     position: absolute;
@@ -375,39 +291,39 @@
   
   .desktop .HDD {
     position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 31px;
-    left: 383px;
+    width: 150px;
+    height: 150px;
+    top: 90px;
+    left: 168px;
   }
   
   .desktop .network {
     position: absolute;
-    width: 484px;
+    width: 482px;
     height: 275px;
     top: 211px;
     left: 99px;
   }
   
-  .desktop .card-text-5 {
-    width: 415px;
-    top: 144px;
-    left: 36px;
+  .desktop .card-title-6 {
+    width: 235px;
+    top: 51px;
+    left: 151px;
     position: absolute;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #302c2c;
-    font-size: 28px;
+    font-size: 32px;
     letter-spacing: 0;
     line-height: normal;
   }
   
   .desktop .wi-fi-connected {
     position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 31px;
-    left: 367px;
+    width: 150px;
+    height: 150px;
+    top: 82px;
+    left: 168px;
   }
   
   .desktop .intro {
@@ -419,10 +335,18 @@
     background-color: #a5d7e0;
   }
   
-  .desktop .overlap-3 {
+  .desktop .overlap {
     position: relative;
     width: 1883px;
     height: 1080px;
+  }
+  
+  .desktop .overlap-2 {
+    position: absolute;
+    width: 1372px;
+    height: 1080px;
+    top: 0;
+    left: 0;
   }
   
   .desktop .intersect {
@@ -481,8 +405,8 @@
   .desktop .miklos {
     position: absolute;
     width: 625px;
-    height: 570px;
-    top: 510px;
+    height: 540px;
+    top: 540px;
     left: 1258px;
     object-fit: cover;
   }
