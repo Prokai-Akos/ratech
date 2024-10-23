@@ -1,390 +1,4 @@
-@media (min-width:1px) and (max-width:400px){
-    .phone {
-        background-color: #ffffff;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-      }
-      
-      .phone .div {
-        background-color: #ffffff;
-        width: 400px;
-        height: 3200px;
-        position: relative;
-      }
-      
-      .phone .address {
-        position: absolute;
-        width: 400px;
-        height: 800px;
-        top: 2400px;
-        left: 0;
-        background-color: #a5d7e0;
-      }
-      
-      .phone .text-wrapper {
-        position: absolute;
-        width: 274px;
-        top: -1px;
-        left: 63px;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #000000;
-        font-size: 32px;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-      
-      .phone .address-group {
-        position: absolute;
-        width: 326px;
-        height: 320px;
-        top: 78px;
-        left: 40px;
-      }
-      
-      .phone .overlap-group {
-        position: relative;
-        width: 320px;
-        height: 320px;
-        background-color: #d9d9d9;
-        border-radius: 50px;
-      }
-      
-      .phone .facebook {
-        position: absolute;
-        width: 90px;
-        height: 90px;
-        top: 226px;
-        left: 199px;
-      }
-      
-      .phone .instagram {
-        position: absolute;
-        width: 90px;
-        height: 90px;
-        top: 226px;
-        left: 23px;
-      }
-      
-      .phone .tel {
-        position: absolute;
-        width: 223px;
-        top: 112px;
-        left: 48px;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #000000;
-        font-size: 20px;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-      
-      .phone .szerviz-miskolc {
-        position: absolute;
-        width: 224px;
-        top: 43px;
-        left: 48px;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #000000;
-        font-size: 20px;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-      
-      .phone .text-wrapper-2 {
-        position: absolute;
-        width: 257px;
-        top: 181px;
-        left: 32px;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #000000;
-        font-size: 20px;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-      
-      .phone .mapspace {
-        position: absolute;
-        width: 320px;
-        height: 300px;
-        top: 447px;
-        left: 40px;
-        background-color: #302c2c;
-      }
-      
-      .phone .services {
-        position: absolute;
-        width: 400px;
-        height: 1600px;
-        top: 800px;
-        left: 0;
-        background-color: #a5d7e0;
-      }
-      
-      .phone .build {
-        position: absolute;
-        width: 238px;
-        height: 149px;
-        top: 1293px;
-        left: 82px;
-      }
-      
-      .desktop .overlap-group-2 {
-        position: relative;
-        width: 236px;
-        height: 149px;
-        background-color: #d9d9d9;
-        border-radius: 50px;
-        border: 3px solid;
-        border-color: #302c2c;
-      }
-      
-      .phone .support {
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        top: 41px;
-        left: 75px;
-      }
-      
-      .phone .card-title {
-        width: 79px;
-        top: 17px;
-        left: 76px;
-        font-size: 16px;
-        position: absolute;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #302c2c;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-      
-      .phone .repair {
-        position: absolute;
-        width: 238px;
-        height: 149px;
-        top: 1065px;
-        left: 82px;
-      }
-      
-      .phone .card-title-2 {
-        width: 68px;
-        top: 16px;
-        left: 81px;
-        font-size: 16px;
-        position: absolute;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #302c2c;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-      
-      .phone .computer-support {
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        top: 35px;
-        left: 75px;
-      }
-      
-      .phone .website {
-        position: absolute;
-        width: 238px;
-        height: 149px;
-        top: 837px;
-        left: 82px;
-      }
-      
-      .phone .internet {
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        top: 42px;
-        left: 75px;
-      }
-      
-      .phone .card-title-3 {
-        width: 91px;
-        top: 14px;
-        left: 70px;
-        font-size: 16px;
-        position: absolute;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #302c2c;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-      
-      .phone .OS {
-        position: absolute;
-        width: 238px;
-        height: 149px;
-        top: 609px;
-        left: 82px;
-      }
-      
-      .phone .card-title-4 {
-        width: 174px;
-        top: 15px;
-        left: 28px;
-        font-size: 16px;
-        position: absolute;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #302c2c;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-      
-      .phone .windows {
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        top: 30px;
-        left: 75px;
-      }
-      
-      .phone .datasave {
-        position: absolute;
-        width: 238px;
-        height: 149px;
-        top: 386px;
-        left: 82px;
-      }
-      
-      .phone .card-title-5 {
-        width: 118px;
-        top: 13px;
-        left: 56px;
-        font-size: 16px;
-        position: absolute;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #302c2c;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-      
-      .phone .HDD {
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        top: 38px;
-        left: 75px;
-      }
-      
-      .phone .network {
-        position: absolute;
-        width: 238px;
-        height: 149px;
-        top: 158px;
-        left: 82px;
-      }
-      
-      .phone .wi-fi-connected {
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        top: 40px;
-        left: 75px;
-      }
-      
-      .phone .card-title-6 {
-        width: 98px;
-        top: 9px;
-        left: 66px;
-        font-size: 20px;
-        position: absolute;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #302c2c;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-      
-      .phone .intro {
-        position: absolute;
-        width: 400px;
-        height: 800px;
-        top: 0;
-        left: 0;
-        background-color: #a5d7e0;
-      }
-      
-      .phone .overlap {
-        position: relative;
-        height: 800px;
-      }
-      
-      .phone .miklos {
-        position: absolute;
-        width: 158px;
-        height: 151px;
-        top: 649px;
-        left: 242px;
-        object-fit: cover;
-      }
-      
-      .phone .intersect {
-        position: absolute;
-        width: 297px;
-        height: 800px;
-        top: 0;
-        left: 0;
-      }
-      
-      .phone .RATECH-SZERVIZ {
-        position: absolute;
-        top: 322px;
-        left: 5px;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #000000;
-        font-size: 64px;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-      
-      .phone .prices-group {
-        position: absolute;
-        width: 118px;
-        height: 41px;
-        top: 702px;
-        left: 21px;
-      }
-      
-      .phone .prices-link-text-wrapper {
-        position: relative;
-        width: 124px;
-        height: 49px;
-        top: -4px;
-        left: -4px;
-        background-color: #a5d7e0;
-        border-radius: 40px;
-        border: 4px solid;
-        border-color: #000000;
-      }
-      
-      .phone .prices-link-text {
-        position: absolute;
-        width: 83px;
-        top: 9px;
-        left: 16px;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: #000000;
-        font-size: 20px;
-        letter-spacing: 0;
-        line-height: normal;
-      }
-}
+
 @media (min-width:401px) and (max-width:1366px){
     .desktop {
         background-color: #ffffff;
@@ -453,15 +67,13 @@
         height: 393px;
         top: 0;
         left: 381px;
-        background-color: #d9d9d9;
-        border-radius: 50px;
       }
       
       .desktop .text-wrapper {
         position: absolute;
         width: 438px;
         top: 0;
-        left: 49px;
+        left: 250px;
         font-family: "Inter-Bold", Helvetica;
         font-weight: 700;
         color: #302c2c;
@@ -480,11 +92,11 @@
         border-radius: 50px;
       }
       
-      .desktop .SZERVIZ-c-ME {
+      .desktop .szerviz-miskolc {
         position: absolute;
         width: 473px;
         top: 122px;
-        left: 36px;
+        left: 26px;
         font-family: "Inter-Bold", Helvetica;
         font-weight: 700;
         color: #302c2c;
@@ -497,7 +109,7 @@
         position: absolute;
         width: 390px;
         top: 195px;
-        left: 36px;
+        left: 26px;
         font-family: "Inter-Bold", Helvetica;
         font-weight: 700;
         color: #302c2c;
@@ -562,8 +174,8 @@
       
       .desktop .overlap-group-2 {
         position: relative;
-        width: 387px;
-        height: 202px;
+        width: 367px;
+        height: 192px;
         top: -3px;
         left: -3px;
         background-color: #d9d9d9;
@@ -795,7 +407,7 @@
         height: 768px;
       }
       
-      .desktop .intersect {
+      .desktop .intersect-desktop-1366 {
         position: absolute;
         width: 683px;
         height: 768px;
@@ -864,9 +476,13 @@
         left: 895px;
         object-fit: cover;
       }
-      #overlap-correcter {
-        height: 535px;
-        width: 393px;
+
+      .desktop .intersect-phone {
+        display: none;
+      }
+
+      .desktop .intersect-desktop-1920 {
+        display: none;
       }
 /*       .desktop .img {
         position: absolute;
@@ -956,11 +572,9 @@
         height: 427px;
         top: 124px;
         left: 535px;
-        background-color: #d9d9d9;
-        border-radius: 50px;
       }
       
-      .desktop .SZERVIZ-c-ME {
+      .desktop .szerviz-miskolc {
         position: absolute;
         width: 665px;
         top: 48px;
@@ -1234,7 +848,7 @@
         left: 0;
       }
       
-      .desktop .intersect {
+      .desktop .intersect-desktop-1920 {
         position: absolute;
         width: 960px;
         height: 1080px;
@@ -1295,8 +909,410 @@
         left: 1258px;
         object-fit: cover;
       }
-      #overlap-correcter{
-        height: 752px;
-        width: 427px;
+      .desktop .intersect-phone {
+        display: none;
+      }
+
+      .desktop .intersect-desktop-1366 {
+        display: none;
+      }
+}
+@media (min-width:1px) and (max-width:400px){
+    .desktop {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+      }
+      
+      .desktop .div {
+        background-color: #ffffff;
+        width: 400px;
+        height: 3200px;
+        position: relative;
+      }
+      
+      .desktop .address {
+        position: absolute;
+        width: 400px;
+        height: 800px;
+        top: 2400px;
+        left: 0;
+        background-color: #a5d7e0;
+      }
+      
+      .desktop .text-wrapper {
+        position: absolute;
+        width: 274px;
+        top: 5px;
+        left: 63px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 32px;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      
+      .desktop .address-group {
+        position: absolute;
+        width: 326px;
+        height: 320px;
+        top: 78px;
+        left: 40px;
+      }
+      
+      .desktop .overlap-group {
+        position: relative;
+        width: 320px;
+        height: 320px;
+        background-color: #d9d9d9;
+        border-radius: 50px;
+      }
+      
+      .desktop .facebook {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top: 226px;
+        left: 199px;
+      }
+      
+      .desktop .instagram {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top: 226px;
+        left: 23px;
+      }
+      
+      .desktop .TELEFON {
+        position: absolute;
+        width: 275px;
+        top: 112px;
+        left: 20px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      
+      .desktop .szerviz-miskolc {
+        position: absolute;
+        width: 224px;
+        top: 43px;
+        left: 20px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      
+      .desktop .text-wrapper-2 {
+        position: absolute;
+        width: 257px;
+        top: 181px;
+        left: 20px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      
+      .desktop .mapspace {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: 380px;
+        left: 40px;
+      }
+
+      #map {
+        width: 250px;
+        height: 250px;
+      }
+      
+      .desktop .services {
+        position: absolute;
+        width: 400px;
+        height: 1600px;
+        top: 800px;
+        left: 0;
+        background-color: #a5d7e0;
+      }
+      
+      .desktop .build {
+        position: absolute;
+        width: 238px;
+        height: 149px;
+        top: 1293px;
+        left: 82px;
+      }
+      
+      .desktop .overlap-group-2 {
+        position: relative;
+        width: 236px;
+        height: 149px;
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        border: 3px solid;
+        border-color: #302c2c;
+      }
+      
+      .desktop .support {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 41px;
+        left: 75px;
+      }
+      
+      .desktop .card-title {
+        width: 79px;
+        top: 17px;
+        left: 76px;
+        font-size: 16px;
+        position: absolute;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #302c2c;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      
+      .desktop .repair {
+        position: absolute;
+        width: 238px;
+        height: 149px;
+        top: 1065px;
+        left: 82px;
+      }
+      
+      .desktop .card-title-2 {
+        width: 68px;
+        top: 16px;
+        left: 81px;
+        font-size: 16px;
+        position: absolute;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #302c2c;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      
+      .desktop .computer-support {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 35px;
+        left: 75px;
+      }
+      
+      .desktop .website {
+        position: absolute;
+        width: 238px;
+        height: 149px;
+        top: 837px;
+        left: 82px;
+      }
+      
+      .desktop .internet {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 42px;
+        left: 75px;
+      }
+      
+      .desktop .card-title-3 {
+        width: 91px;
+        top: 14px;
+        left: 70px;
+        font-size: 16px;
+        position: absolute;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #302c2c;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      
+      .desktop .OS {
+        position: absolute;
+        width: 238px;
+        height: 149px;
+        top: 609px;
+        left: 82px;
+      }
+      
+      .desktop .card-title-4 {
+        width: 174px;
+        top: 15px;
+        left: 28px;
+        font-size: 16px;
+        position: absolute;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #302c2c;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      
+      .desktop .windows {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 30px;
+        left: 75px;
+      }
+      
+      .desktop .datasave {
+        position: absolute;
+        width: 238px;
+        height: 149px;
+        top: 386px;
+        left: 82px;
+      }
+      
+      .desktop .card-title-5 {
+        width: 118px;
+        top: 13px;
+        left: 56px;
+        font-size: 16px;
+        position: absolute;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #302c2c;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      
+      .desktop .HDD {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 38px;
+        left: 75px;
+      }
+      
+      .desktop .network {
+        position: absolute;
+        width: 238px;
+        height: 149px;
+        top: 158px;
+        left: 82px;
+      }
+      
+      .desktop .wi-fi-connected {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 40px;
+        left: 75px;
+      }
+      
+      .desktop .card-title-6 {
+        width: 98px;
+        top: 9px;
+        left: 66px;
+        font-size: 20px;
+        position: absolute;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #302c2c;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      
+      .desktop .intro {
+        position: absolute;
+        width: 400px;
+        height: 800px;
+        top: 0;
+        left: 0;
+        background-color: #a5d7e0;
+      }
+      
+      .desktop .overlap {
+        position: relative;
+        height: 800px;
+      }
+
+      .desktop .miklos {
+        position: absolute;
+        width: 330px;
+        height: 310px;
+        top: 450px;
+        left: 35px;
+        object-fit: cover;
+      }
+      
+      .desktop .intersect-phone {
+        position: absolute;
+        width: 400px;
+        height: 830px;
+        top: -250px;
+        left: 0;
+      }
+
+      .desktop .intersect-desktop-1920 {
+        display: none;
+      }
+
+      .desktop .intersect-desktop-1366 {
+        display: none;
+      }
+      
+      .desktop .main-title {    
+        position: absolute;
+        top: 80px;
+        left: 65px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 64px;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+      
+      .desktop .prices-group {
+        position: absolute;
+        width: 118px;
+        height: 41px;
+        top: 702px;
+        left: 21px;
+      }
+      
+      .desktop .prices-link-text-wrapper {
+        position: relative;
+        width: 124px;
+        height: 49px;
+        top: -4px;
+        left: -4px;
+        background-color: #a5d7e0;
+        border-radius: 40px;
+        border: 4px solid;
+        border-color: #000000;
+      }
+      
+      .desktop .prices-link-text {
+        position: absolute;
+        width: 83px;
+        top: 9px;
+        left: 16px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
       }
 }
