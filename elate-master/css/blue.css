@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: scaleX(1);
 }
 #fh5co-header .navbar-brand {
-  float: left;
+  float: right;
   display: block;
   font-size: 30px;
   font-weight: 700;

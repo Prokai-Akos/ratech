@@ -1,0 +1,5 @@
+/* EZT EDITELJED PARASZT */
+.navbar-brand { 
+    /* Emiatt lesz Miklós a felső kis cím jó oldalán */
+    float:right !important;
+}
