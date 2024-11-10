@@ -2,4 +2,35 @@
 .navbar-brand { 
     /* Emiatt lesz Miklós a felső kis cím jó oldalán */
     float:right !important;
+    padding-right:30px !important;
 }
+
+.picture-fixer{
+    padding-top: 20px !important;
+}
+
+.mapspace{
+    width: 75%;
+    height: 50%;
+    padding-left:10px;
+}
+
+#flex-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width:300px) and (max-width:768px){
+    .mapspace{
+        width: 100%;
+        height: 100%;
+        padding-left:10px;
+    }
+
+    #flex-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
