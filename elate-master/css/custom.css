@@ -53,5 +53,17 @@
 }
 
 #fh5co-services {
-    padding-top: 14em !important;
+    padding-bottom: 14em !important;
+}
+
+#fh5co-intro {
+    margin-bottom: 4em !important;
+}
+
+#fh5co-home {
+    background-position: center !important;
+}
+
+.h-100 {
+    height: 100%
 }
