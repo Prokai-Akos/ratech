@@ -64,7 +64,11 @@
     background-position: center !important;
 }
 
-.cards {
+.intro-cards {
     display: flex;
     flex-wrap: wrap;
+}
+
+.work-cards > div {
+    height: 300px;
 }
