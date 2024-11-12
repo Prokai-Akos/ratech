@@ -69,6 +69,8 @@
     flex-wrap: wrap;
 }
 
-.work-cards > div {
-    height: 300px;
+.work-cards img {
+    object-fit: cover;
+    aspect-ratio: 16/9;
 }
+
